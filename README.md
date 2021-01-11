@@ -6,7 +6,7 @@ Contains writeups of machines and challenges.
 To start any of the machines you must first connect to the **VPN** first.   
 You can find the **CONNECT TO VPN** button.     
 
-You'll be prompted with this save the *username* and *password* and download the VPN pack.
+You'll be prompted with this, save the *username* and *password* and download the VPN pack.
 
 ![vpn](dump/vpnpack.png)
 
