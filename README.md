@@ -14,4 +14,4 @@ To start the openvpn connection enter `openvpn your_filename_here.ovpm` in the t
 
 Enter the previously saved *username* and *password* when prompted and connection will be initialized.  
 
-![openvpn](dump/connect.png)
+![openvpn](dump/connect1.png)
