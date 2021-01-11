@@ -10,7 +10,7 @@ You'll be prompted with this, save the *username* and *password* and download th
 
 ![vpn](dump/vpnpack.png)
 
-To start the openvpn connection enter `openvpn your_filename_here.ovpm` int he terminal in the same directory as your .ovpn file
+To start the openvpn connection enter `openvpn your_filename_here.ovpm` in the terminal in the same directory as your .ovpn file
 
 Enter the previously saved *username* and *password* when prompted and connection will be initialized.  
 
