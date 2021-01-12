@@ -16,7 +16,7 @@ You can open the ftp server on your browser. Download the zip files
 ![ftp](images/ftp1.png)    
 
 
-When you try to unzip the *password* it's prompting for a *password*.   
+When you try to unzip the files it's prompting for a *password*.   
 To bypass this we can use **johntheripper**'s *zip2john* tool to convert them into .hash files and crack them using **johntheripper**.  
 
 You can convert them into .hash files using the command 
