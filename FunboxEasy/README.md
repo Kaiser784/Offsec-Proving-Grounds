@@ -96,6 +96,6 @@ $ sudo /usr/bin/time /bin/sh
 ```
 ![](images/root.png)
 
-After getting the privilige escalation you can find the flags in each of the home directories of user www-data and root.
+After getting the privilege escalation you can find the flags in each of the home directories of user www-data and root.
 
 ![](images/flags.png)
