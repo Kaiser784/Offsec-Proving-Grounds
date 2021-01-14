@@ -34,7 +34,7 @@ We can see that we can upload files here. We can upload a reverse-php-shell here
 
 ![](images/upload1.png)
 
-You can find a php-reverse-shell [here](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) here or if you are on kali you'll be able to find one on the system itself, you can use that as well. But I highly recommend to star pentestmokey's repo because it contains a lot of useful things.
+You can find a php-reverse-shell here [pentestmokey](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) or if you are on kali you'll be able to find one on the system itself, you can use that as well. But I highly recommend to star pentestmokey's repo because it contains a lot of useful things.
 
 You'll have to change the ip address and the port on the php file before uploading it.
 
@@ -47,7 +47,7 @@ Before clicking on the php-file don't forget to setup a netcat listener on your 
 ```
 $ nc -lvnp port_number
 ```
-Also don't forget that you're firewall should be disabled for this using the command
+Also don't forget that you're firewall should be disabled, you can check this by using the command
 ```
 $ ufw status
 ```
@@ -62,7 +62,7 @@ After snooping around the home folder, there's a password.txt with user tony's p
 ![](images/tony.png)
 
 ```
-$ sudo su
+$ su tony
 $ python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
@@ -87,7 +87,7 @@ User tony may run the following commands on funbox3:
     (root) NOPASSWD:
         /root/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/q/r/s/t/u/v/w/x/y/z/.smile.sh
 ```
-You can see binary files exploitation [here](https://gtfobins.github.io/) and choose the suitable one.      
+You can see binary files exploitation here [GTFO](https://gtfobins.github.io/) and choose the suitable one.      
 I choose the time command.
 
 You can get privilege escaltion by 
