@@ -32,8 +32,7 @@ Set the RHOSTS, RPORTS correctly and don't forget that for LHOSTS you have to en
 Use the below command to get a python interactive shell
 ```
 python -c "import pty; pty.spawn(\"/bin/bash\")"
-```
-Navigating to home we see a directory named tiago where we can find the user flag     
+```   
 
 I checked the kernel version on the system      
 
