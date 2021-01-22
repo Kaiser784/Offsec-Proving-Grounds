@@ -39,7 +39,7 @@ And found [this](https://www.exploit-db.com/exploits/37292) on exploit-db, this 
 
 Download it onto your local machine and host a temporary python server from there to download onto the target machine.      
 
-You can setup a local python server in the director where you downloaded the exlploit using
+You can setup a local python server in the directory where you downloaded the exlploit using
 ```
 $ python3 -m http.server port
 ```
