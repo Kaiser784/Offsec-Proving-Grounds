@@ -34,7 +34,7 @@ Use the below command to get a python interactive shell
 python -c "import pty; pty.spawn(\"/bin/bash\")"
 ```   
 
-I checked the kernel version on the system      
+I checked the kernel version on the system.     
 
 ![](images/kernel.png)      
 
