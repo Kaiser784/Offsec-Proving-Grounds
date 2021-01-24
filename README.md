@@ -1,8 +1,7 @@
 # Offsec-labs
-Contains writeups of machines and challenges.   
 ---
 
-### How to connect to Offsec labs
+## How to connect to Offsec labs
 To start any of the machines you must first connect to the **VPN** first.   
 You can find the **CONNECT TO VPN** button.     
 
