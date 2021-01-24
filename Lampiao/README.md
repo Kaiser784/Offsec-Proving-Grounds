@@ -42,7 +42,7 @@ Googling an exploit for the version I found one on [exploit-db](https://www.expl
 
 I know downloading directly onto the target machine would have been easier but for some reason it was not connecting to the exploit-db site.
 
-You can setup a local python server using
+You can setup a local python server using           
 ```
 $ python3 -m http.server port
 ```
