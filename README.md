@@ -3,7 +3,7 @@
 
 ## How to connect to Offsec labs
 To start any of the machines you must first connect to the **VPN** first.   
-You can find the **CONNECT TO VPN** button.     
+You can find the **CONNECT TO VPN** button on the top right.     
 
 You'll be prompted with this, save the *username* and *password* and download the VPN pack.
 
